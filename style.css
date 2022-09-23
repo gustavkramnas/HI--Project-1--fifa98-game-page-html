@@ -53,26 +53,17 @@ body {
   margin-top: -50px;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 640px) {
   .navbar ul {
     display: flex;
     flex-direction: column;
     align-content: center;
     margin-bottom: 15px;
   }
-  .nav-1 ul li img {
-    margin: 15px;
-  }
-
-  .nav-2 ul li img {
-    margin: 15px;
-  }
-
-  .nav-3 ul li img {
-    margin: 15px;
-  }
-
-  .nav-4 ul li img {
+  .navbar ul li img {
     margin: 15px;
   }
 }
+
+/* jag behöver hjälp med att centrera min navbar i media screen */
+/* jag behöver hjälp med att få bort hovern på media screen */
