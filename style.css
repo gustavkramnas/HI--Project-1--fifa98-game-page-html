@@ -26,7 +26,6 @@ body {
 .wrapper {
   margin: 0 auto;
   max-width: 1100px;
-  padding: 20px;
 }
 
 .navbar ul {
@@ -34,47 +33,25 @@ body {
   justify-content: row;
   justify-content: space-between;
   margin-bottom: 80px;
-  flex-wrap: wrap;
+  margin-top: -80px;
+  overflow: scroll;
+  padding: 50px;
+  gap: 10px;
 }
 
 /* vill ha hover effekt på bilderna så att dem zoomar*/
-.nav-1 ul li img {
+.navbar ul li img {
   width: 200px;
   height: 200px;
-  border: 2px solid white;
+  border: 2px solid blue;
   cursor: pointer;
 }
 
-/* .nav-1 ul li {
-  width: 150px;
+.navbar ul li img:hover {
+  width: 300px;
+  height: 300px;
+  margin-top: -50px;
 }
-
-.nav-1 ul li img:hover {
-  transform: translate(0, -10%);
-} */
-
-.nav-2 ul li img {
-  width: 200px;
-  height: 200px;
-  border: 2px solid white;
-  cursor: pointer;
-}
-
-.nav-3 ul li img {
-  width: 200px;
-  height: 200px;
-  border: 2px solid white;
-  cursor: pointer;
-}
-
-.nav-4 ul li img {
-  width: 200px;
-  height: 200px;
-  border: 2px solid white;
-  cursor: pointer;
-}
-
-/* I need all the different nav-1, nav-2, nav-3, nav-4 for later work with carousel scroll*/
 
 @media screen and (max-width: 660px) {
   .navbar ul {
