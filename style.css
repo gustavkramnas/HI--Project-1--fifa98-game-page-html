@@ -7,27 +7,26 @@
 body {
   background-image: url(./bilder/NimbleEvergreenAmericangoldfinch-size_restricted.gif);
 }
-
+/*----------------------*/
 .audio {
   text-align: center;
   margin-top: 15px;
 }
-
+/*----------------------*/
 .select-game {
   font-family: "Goldman", cursive;
-  cursor: pointer;
   margin-top: 5%;
   text-align: center;
   font-size: 45px;
   color: pink;
   padding-bottom: 80px;
 }
-
+/*----------------------*/
 .wrapper {
   margin: 0 auto;
   max-width: 1100px;
 }
-
+/*----------------------*/
 .navbar ul {
   display: flex;
   justify-content: row;
@@ -39,20 +38,20 @@ body {
   padding: 50px;
   gap: 10px;
 }
+/*----------------------*/
 
-/* vill ha hover effekt på bilderna så att dem zoomar*/
 .navbar ul li img {
   width: 200px;
   height: 200px;
   border: 2px solid blue;
   cursor: pointer;
 }
-
+/*----------------------*/
 .navbar ul li img:hover {
   width: 300px;
   height: 300px;
 }
-
+/*----------------------*/
 @media screen and (max-width: 640px) {
   .navbar ul {
     display: flex;
@@ -71,6 +70,7 @@ body {
     overflow: none;
   }
 }
+/*----------------------*/
 
 /* jag behöver hjälp med att centrera min navbar i media screen */
 /* jag behöver hjälp med att få bort hovern på media screen */
