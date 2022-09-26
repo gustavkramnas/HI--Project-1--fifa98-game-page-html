@@ -53,7 +53,7 @@ let pacman = document.getElementById("pacman");
 pacman.addEventListener("click", popUpPacman);
 function popUpPacman() {
   alert(
-    "Unfortunatly Pacman is recovering from a sqaure incident :( Please come back soon!"
+    "Unfortunatly Pacman is recovering from a 'squared' incident :( Please come back soon!"
   );
 }
 
