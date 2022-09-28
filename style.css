@@ -62,14 +62,16 @@ body {
 
   .navbar ul li img {
     margin: 15px;
-  }
-
-  .navbar ul li img:hover {
     width: 200px;
     height: 200px;
     overflow: none;
   }
 }
+
+/*-----*/
+@media screen and (max-width: 1110px) {
+}
+
 /*----------------------*/
 
 /* jag behöver hjälp med att centrera min navbar i media screen */
