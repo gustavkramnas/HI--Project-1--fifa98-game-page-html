@@ -12,6 +12,7 @@ body {
   text-align: center;
   margin-top: 15px;
 }
+
 /*----------------------*/
 .select-game {
   font-family: "Goldman", cursive;
@@ -76,14 +77,12 @@ body {
     flex-direction: column;
     align-items: center;
     margin-bottom: 15px;
-    self
   }
 
   .navbar ul li img {
     margin: 15px;
     width: 150px;
     height: 150px;
-
   }
 
   .navbar ul li img:hover {
