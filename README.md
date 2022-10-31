@@ -16,9 +16,8 @@ Apply fundamental tools and techniques to build a responsive accessible website 
 -Get the basics of Git and using github
 
 📉The process📈:
-This project was really fun. It was my first project in Hyper Island. The idea was to create something that was a little crazy, just like the internet and websites were in the 90s. I wanted to create something with several landing pages instead of just one website so I created a "re-make" on fifa 1998 and mainly there were 4 different landing pages where you can choose games in a gallery, loading page, start page and game menu.
+This project was really fun. It was my first project in Hyper Island. The idea was to create something that was a little crazy, just like the internet and websites were in the 90s. I wanted to create something with several landing pages instead of just one website so I created a "re-make" on fifa 1998 and mainly there were 4 different landing pages where you can choose games in a gallery, loading page, start page and game menu. It was fun and educational
 
-It was fun and educational
 📘 Learnings:
 -Know the how to structure a website in terms of HTML, CSS, and Javascript
 -Know how to handle version control and code sharing using Git (via Github)
